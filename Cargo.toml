@@ -1,0 +1,15 @@
+[package]
+name = "arbitrary_nums"
+version = "0.1.0"
+authors = ["frogtd <ash@frogtd.com>"]
+edition = "2018"
+readme = "README.md"
+license = "MIT OR Unlicense"
+description = "Numbers with any number of bits!"
+keywords = ["ux", "arbitrary", "number"]
+categories = ["encoding", "no-std"]
+repository = "https://github.com/frogtd/arbitrary_nums"
+
+[features]
+default = ["std"]
+std = []
